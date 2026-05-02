@@ -53,3 +53,48 @@ Moderately engaged users with stable but non-dominant usage patterns.
 
 ### 🟠 Low-Engagement / At-Risk Users
 Users with infrequent activity and declining engagement trends, representing churn risk.
+
+🔍 Key Insights
+User engagement is highly concentrated within a small subset of “power users,” indicating strong usage skew.
+A large proportion of users demonstrate low or inconsistent activity, representing retention risk.
+Segmentation reveals clear behavioral clusters that are not visible in aggregate-level analysis.
+Differentiated user groups enable more targeted engagement and retention strategies.
+💡 Business Recommendations
+Prioritize retention strategies for at-risk users through targeted re-engagement campaigns.
+Improve onboarding flows to increase early-stage activation rates.
+Introduce personalized experiences for mid-tier users to increase engagement frequency.
+Implement loyalty mechanisms for high-value users to sustain long-term engagement.
+🚀 Interactive Analytics Dashboard (Hugging Face Spaces)
+
+To extend the analysis beyond static outputs, an interactive dashboard was developed and deployed using Hugging Face Spaces.
+
+🔗 Live App
+
+https://huggingface.co/spaces/akhand14/mgmt389_USDA_TEAM10
+
+📌 Features
+Interactive exploration of user segmentation results
+Visualization of behavioral patterns across user groups
+Dynamic filtering of engagement metrics
+User-friendly interface for non-technical stakeholders
+🎯 Purpose
+
+This application transforms static analysis into an interactive decision-support tool, allowing stakeholders to explore segmentation insights without requiring technical expertise.
+
+🧠 Value Add
+
+Demonstrates end-to-end capability across:
+
+Data analysis
+Machine learning / segmentation
+Deployment of an interactive analytics product
+📌 Executive Takeaway
+
+User behavior is highly unevenly distributed, with a small subset of users driving the majority of engagement. This segmentation framework enables targeted interventions to improve retention, activation, and overall platform efficiency.
+
+🛠️ Tools Used
+
+Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn | Hugging Face Spaces
+
+
+
