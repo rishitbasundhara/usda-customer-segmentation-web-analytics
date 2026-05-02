@@ -34,8 +34,6 @@ Segment profiling and interpretation
 
 👥 Key User Segments Identified
 
-(You will later refine these based on your actual output)
-
 High Engagement Users – frequent, consistent activity
 Occasional Users – moderate engagement, inconsistent usage
 Low Engagement / At-Risk Users – minimal interaction
@@ -45,11 +43,29 @@ A small segment of users contributes disproportionately to overall engagement
 A large portion of users show low or declining activity
 Clear segmentation enables targeted engagement strategies
 
+
+🚀 Interactive Analytics App (Hugging Face Spaces)
+
+To make the analysis more accessible and interactive, a lightweight application was built and deployed using Hugging Face Spaces.
+
+Features
+- Interactive exploration of user behavior insights
+- Visualization of user segments
+- Dynamic exploration of engagement patterns
+
+Purpose
+The app bridges the gap between static analysis and user-facing analytics, enabling non-technical users to explore segmentation results intuitively.
+
+Deployment
+The application is hosted on Hugging Face Spaces:
+[View App] https://huggingface.co/spaces/akhand14/mgmt389_USDA_TEAM10
+
 💡 Business Recommendations
 Focus retention strategies on at-risk users
 Introduce personalized engagement for mid-tier users
 Reward high-value users to maintain loyalty
 Optimize onboarding to improve early-stage engagement
+
 🛠️ Tools Used
 
 Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn
