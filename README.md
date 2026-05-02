@@ -1,71 +1,55 @@
-# usda-customer-segmentation-web-analytics
-Improving Digital Engagement Through User Segmentation &amp; Behavioral Analytics
+# 📊 Customer Segmentation & Web Analytics Analysis
 
-📊 Customer Segmentation & Web Analytics Analysis
+## 📌 Overview
+This project analyzes user behavior on a digital platform to identify distinct user segments based on engagement patterns and activity metrics. The objective is to understand how users interact with the platform and translate behavioral data into actionable business insights.
 
-📌 Overview
+This project combines:
+- 📊 Data analysis and segmentation modeling
+- 🧠 Behavioral insight generation
+- 🚀 An interactive deployed analytics application (Hugging Face Spaces)
 
-This project analyzes user behavior on a digital platform to identify distinct user segments based on engagement patterns and activity data. The goal is to understand how different user groups interact with the platform and derive actionable insights to improve engagement and retention.
+---
 
-🎯 Business Problem
+## 🎯 Business Problem
+Digital platforms often struggle to understand heterogeneous user behavior at scale.
 
-Digital platforms often struggle with understanding user behavior at a granular level. This project addresses:
+This project addresses:
+- How do user engagement patterns vary across users?
+- Which user groups contribute most to platform activity?
+- Where are opportunities to improve retention and activation?
+- How can segmentation be operationalized for decision-making?
 
-How do user behaviors differ across segments?
-Which users drive the most engagement or value?
-Where are there opportunities to improve retention and activity?
+---
 
-📂 Dataset
+## 📂 Dataset
+A sample dataset representing user behavioral activity was used for analysis due to size constraints.
 
-A sample dataset representing user activity behavior was used for analysis due to size constraints.
+- Contains user-level engagement metrics (frequency, activity patterns, interaction intensity)
+- Full dataset excluded due to file size limitations
+- Analysis performed on a representative sample sufficient to preserve behavioral patterns
 
-Includes behavioral metrics such as activity frequency, engagement patterns, and usage intensity
-Full dataset was not uploaded due to size limitations
+---
 
-🧠 Methodology
+## 🧠 Methodology
 
-The analysis follows a structured approach:
+The analysis follows a structured end-to-end analytics workflow:
 
-Data Cleaning & Preprocessing
-Exploratory Data Analysis (EDA)
-Feature Engineering (behavioral metrics)
-User Segmentation using clustering techniques (e.g., RFM / K-Means)
-Segment profiling and interpretation
+1. Data Cleaning & Preprocessing  
+2. Exploratory Data Analysis (EDA)  
+3. Feature Engineering (behavioral metrics)  
+4. User Segmentation using clustering techniques (K-Means / RFM-inspired logic)  
+5. Segment profiling and interpretation  
+6. Insight generation and business recommendation mapping  
 
-👥 Key User Segments Identified
+---
 
-High Engagement Users – frequent, consistent activity
-Occasional Users – moderate engagement, inconsistent usage
-Low Engagement / At-Risk Users – minimal interaction
+## 👥 User Segments Identified
 
-📈 Key Insights
-A small segment of users contributes disproportionately to overall engagement
-A large portion of users show low or declining activity
-Clear segmentation enables targeted engagement strategies
+### 🔵 Power Users
+High-frequency, highly engaged users who consistently drive a large share of platform activity.
 
+### 🟢 Regular Active Users
+Moderately engaged users with stable but non-dominant usage patterns.
 
-🚀 Interactive Analytics App (Hugging Face Spaces)
-
-To make the analysis more accessible and interactive, a lightweight application was built and deployed using Hugging Face Spaces.
-
-Features
-- Interactive exploration of user behavior insights
-- Visualization of user segments
-- Dynamic exploration of engagement patterns
-
-Purpose
-The app bridges the gap between static analysis and user-facing analytics, enabling non-technical users to explore segmentation results intuitively.
-
-Deployment
-The application is hosted on Hugging Face Spaces:
-[View App] https://huggingface.co/spaces/akhand14/mgmt389_USDA_TEAM10
-
-💡 Business Recommendations
-Focus retention strategies on at-risk users
-Introduce personalized engagement for mid-tier users
-Reward high-value users to maintain loyalty
-Optimize onboarding to improve early-stage engagement
-
-🛠️ Tools Used
-
-Python | Pandas | NumPy | Scikit-learn | Matplotlib | Seaborn
+### 🟠 Low-Engagement / At-Risk Users
+Users with infrequent activity and declining engagement trends, representing churn risk.
