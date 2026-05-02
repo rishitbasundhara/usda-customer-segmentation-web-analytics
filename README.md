@@ -14,6 +14,7 @@ Digital platforms often struggle with understanding user behavior at a granular 
 How do user behaviors differ across segments?
 Which users drive the most engagement or value?
 Where are there opportunities to improve retention and activity?
+
 📂 Dataset
 
 A sample dataset representing user activity behavior was used for analysis due to size constraints.
